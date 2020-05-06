@@ -1,0 +1,73 @@
+.objeckt {
+    top: 0;
+    display: flex;
+    vertical-align: top;
+    flex-direction: column;
+    &_car {
+        margin-left: 50%;
+        margin-top: -322px;
+    }
+    &_tnh {
+        width: 50%;
+        padding-top: 25px;
+    }
+}
+
+.about__items {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap
+    }
+
+.about__item {
+    flex-basis: calc(100% / 2 - 0px);
+    h4 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 900;
+        // line-height: 40px;
+        color: #413636;
+        span {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            // line-height: 22px;
+            color: #000000;
+                }
+    }
+}
+
+.about__descr {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    color: #000000;    
+}
+.title {
+    padding: 20px 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 40px;
+    color: #E49B0F;
+    &_big {
+        text-transform: uppercase;
+        padding: 5px 0;
+        margin-bottom: 20px;
+        &_wh {
+            color: #ffffff;
+        }
+    }
+}
+
+.about-text {
+    width: 50%;
+    margin-top: -56%;
+
+    p {
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    color: #000000;
+    }
+}  

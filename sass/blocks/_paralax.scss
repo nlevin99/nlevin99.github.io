@@ -1,0 +1,15 @@
+.hero {
+    height: calc(100vh );
+    background-size: cover;
+    background: url(../img/promo_1.png) no-repeat top center fixed;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    line-height: normal;
+    
+    display: flex;
+    
+    transition: all 1s;
+    align-items: flex-end;
+}
+    

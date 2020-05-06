@@ -1,0 +1,101 @@
+.input {
+    padding: 70px 0 77px 0;
+    
+    &_items {
+        
+        form {
+            display: flex;
+            position: relative;
+            z-index: 0;
+            height: 80px;
+            
+        }
+    }
+}
+.input-group {
+    width: 220px;
+    height: 70px;
+}
+.contackt-form__input {
+    background: #FFFFFF;
+    border: 1px solid #969393;
+    box-sizing: border-box;
+    padding: 0 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #878787;
+    
+    &_name {
+        width: 195px;
+    }
+    &_phone {
+        width: 263px;
+    }
+    &_email {
+        width: 225px;
+    }
+    &:nth-child(1) {
+        border-radius: 10px 0px 0px 10px;
+    }
+    
+}
+
+.datepicker-here {
+    width: 195px;
+    background: #FFFFFF;
+    border: 1px solid #969393;
+    box-sizing: border-box;
+    padding: 0 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #878787;
+}
+.contackt-form_button {
+    width: 267px;
+    background: #E49B0F;
+    border-radius: 0px 10px 10px 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+    &:hover {
+        background-color: #CC8805;
+    }
+}
+.input_text {
+    margin-bottom: 40px;
+}
+
+
+.form__more {
+    display: flex;
+    font-size: 12px;
+    
+    &_item {
+        width: 315px;
+        label {
+            display: flex;
+            margin-top: 10px;
+            div {
+                margin-top: 4px;
+                margin-left: 6px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 10px;
+                color: rgba(27, 27, 27, 0.5);
+            }
+        }
+    }
+}

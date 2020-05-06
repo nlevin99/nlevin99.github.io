@@ -1,0 +1,13 @@
+.crovl {
+    padding: 70px 0 70px 0;
+    // height: 667px;
+    background: #F5F5F5;
+    &__items {
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+    }
+}
+.crovl__items_item_ml {
+    margin-left: 30px;
+}

@@ -1,0 +1,37 @@
+.sell__plan {
+    display: flex;
+    align-items: center;
+    background: #413636;
+    width: 413px;
+    height: 100px;
+    background: #E49B0F;
+    border-radius: 0px 10px 0px 0px;
+    cursor: pointer;
+    &:hover {
+        background-color: #CC8805;
+    }
+   
+    a {
+        padding-right: 20%;
+        padding-left: 25%;
+        
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+        border: none;
+        text-decoration: none;
+        color: #FFFFFF;
+        &:hover {
+        
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+}
+.bg_sell {
+    background: #413636;
+    margin-top: -10px;
+}

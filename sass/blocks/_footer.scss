@@ -1,0 +1,105 @@
+.footer {
+    position: relative;
+    height: 630px;
+    overflow: hidden;
+    &_info {
+        padding: 55px  0;
+        top: 0;
+        position: absolute;
+        z-index:0;
+        width: 390px;
+        height: 525px;
+        background: #413636;
+        border-radius: 0px 0px 10px 10px;
+    }
+    &_title {
+        margin-left: 23px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 47px;
+        color: #FFFFFF;
+    }
+    &_subtitle {
+        margin-left: 23px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-bottom: 83px;
+    }
+    &_phone {
+        margin-left: 23px;
+        
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+        &:hover {
+            text-decoration: none;
+            color: #E49B0F;
+        }
+        
+    }
+    address {
+        margin-left: 23px;
+        margin-top: 5px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+    &_email {
+        margin-left: 23px;
+        margin-top: 33px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+    &_button {
+        margin-top: 90px;
+        width: 390px;
+        height: 80px;
+        border: none;
+        padding: 0;
+        width: 390px;
+        background: #E49B0F;
+        border-radius: 0px 0px 10px 10px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+        &:hover {
+            background-color: #CC8805;
+        }
+    }
+}
+iframe {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 630px;
+    border: none;
+}
+
+.off {
+    margin-top: 24px;
+    margin-left: 23px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    }

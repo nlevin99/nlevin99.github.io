@@ -1,0 +1,24 @@
+.button {
+    width: 25vw;
+    text-transform: uppercase;
+    height: 80px;
+    background: #E49B0F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    min-width: 315px;
+    flex: 2 1 14vw;
+    text-align: center;
+    border-radius: 0px 0px 0px 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F9F9F9;
+    border: none;
+    &:hover {
+        background-color: #CC8805;
+    }
+
+}
